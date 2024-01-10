@@ -10,5 +10,6 @@
 rootProject.name = 'scala-spark-intro'
 
 include(
-        'intro-scala'
+        'intro-scala',
+        'intro-spark'
 )
