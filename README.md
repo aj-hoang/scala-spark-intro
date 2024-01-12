@@ -42,3 +42,15 @@ This is just an example repo to go through an introduction to scala / spark
   * In File -> Project Structure -> Set SDK to OpenJDK 8 (the java 8 installation you've setup should be selectable in the dropdown)
   * Ensure to import the gradle project
 
+## Sample Data
+We can experiment with some open data here: https://www.data.gov.uk/dataset/208c0e7b-353f-4e2d-8b7a-1a7118467acc/gb-road-traffic-counts
+  - Specifically the local authority traffic csv
+  - Download the file
+  - Create a directory at the root of this repo called: and setup the directory as follows, and place the csv in there
+  ```
+  data
+  └── local-authority-traffic
+      └── csv
+          └── local_authority_traffic.csv
+  
+  ```
